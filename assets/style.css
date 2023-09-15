@@ -1,0 +1,187 @@
+.container {
+  text-align: center;
+
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+
+  box-sizing: border-box;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.image1 {
+  width: 200px;
+  margin-top: -70px;
+}
+
+#countdown {
+  font-size: 70px;
+  margin-top: 100px;
+  font-weight: 100px;
+}
+.we {
+  color: white;
+  margin-top: -30px;
+}
+.coming {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+  color: #000066;
+  margin-top: -40px;
+}
+.going {
+  color: white;
+  margin-top: -10px;
+}
+.href {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c1a3ec;
+  width: 250px;
+  display: flex;
+
+  color: white;
+  height: 60px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.envelope {
+  width: 15px;
+  padding-bottom: 8px;
+  padding-left: 3px;
+}
+.nexts {
+  width: 10px;
+}
+
+#notifyme {
+  font-size: 30px;
+  background-color: #5200cc;
+  width: 250px;
+
+  color: #cce6ff;
+}
+#spans {
+  padding-bottom: -80px;
+}
+.notediv {
+  background-color: #5200cc;
+  width: 205px;
+  height: 50px;
+  display: flex;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.next {
+  width: 8px;
+  padding-top: 23px;
+  padding-left: 10px;
+}
+.centered-div {
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+  text-align: center;
+}
+.we {
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.button {
+  width: 37%;
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #5200cc;
+  border-color: #5200cc;
+  color: #cce6ff;
+}
+#twitter {
+  background-color: #5200cc;
+  width: 100px;
+  color: white;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  background-color: #5200cc;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-color: #5200cc;
+  align-items: center;
+}
+#linkedin {
+  background-color: #5200cc;
+  width: 100px;
+  color: white;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  background-color: #5200cc;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  align-items: center;
+  margin-left: 10px;
+  border-color: #5200cc;
+}
+
+#github {
+  background-color: #5200cc;
+  width: 100px;
+  color: white;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  background-color: #5200cc;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  align-items: center;
+  margin-left: 10px;
+  border-color: #5200cc;
+}
+
+/* .responsive-div {
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Define responsive behavior using media queries */
+/* @media (max-width: 768px) {
+  .responsive-div {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .responsive-div {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1025px) {
+  .responsive-div {
+    width: 40%;
+    margin: 0 auto;
+  }
+} */
